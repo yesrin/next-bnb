@@ -9,12 +9,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-styled-components": "^2.0.2",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "style-components": "^0.1.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "styled-reset": "^4.3.4"
   },
   "devDependencies": {
     "@types/node": "^17.0.4",

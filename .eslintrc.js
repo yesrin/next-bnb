@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  globals: { JSX: true }, // JSX is not defined 경고 제거
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
   extends: ["airbnb"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
