@@ -1,7 +1,13 @@
 import React from "react";
+import styled from "style-components";
 
-const index:React.FC=()=>{
-    return <div>hello world</div>;
+const Container = styled.div`
+font-size:21px;
+color:gray;
+`;
+
+const index: React.FC = () => {
+    return <Container>hello world</Container>;
 };
 
 export default index;
