@@ -8,7 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true, //엄격한 타임을 위해
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
